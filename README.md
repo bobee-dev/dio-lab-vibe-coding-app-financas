@@ -94,3 +94,13 @@ React + Vite + TailwindCSS + shadcn/ui + Supabase (auth + postgres).
 Gere o layout responsivo (mobile-first), com microinterações suaves
 e estados vazios ilustrados ("você ainda não tem lançamentos, tire uma foto
 do primeiro comprovante pra começar").
+
+
+
+🧠 Reflexão — O que aprendi com o Vibe Coding
+Esse lab virou a chave pra mim em três pontos:
+
+Prompt é produto. O primeiro prompt que escrevi era curto e genérico, e o resultado também foi. Quando tratei o prompt como um mini-PRD — com persona, dor, tom de voz, paleta, regras funcionais e stack — a IA parou de "chutar" e começou a executar uma visão. A qualidade da saída é diretamente proporcional à clareza da entrada.
+O papel do dev muda, mas não some. Com o Lovable eu não escrevi componentes à mão, mas precisei revisar, corrigir rumo e pedir refatorações específicas ("diminua o card do DAS", "troque ícone por Lucide"). Continua sendo engenharia — só que num nível de abstração mais alto, mais próximo de um Tech Lead revisando PRs do que de um dev escrevendo useState.
+Velocidade destrava ideação. Em menos de uma hora saí de uma ideia vaga ("app pra MEI") pra um protótipo navegável com identidade visual consistente. Isso muda a forma de validar produtos: dá pra testar 3 conceitos num fim de semana e só aí investir tempo em código "de verdade".
+No fim, o Vibe Coding não substitui o desenvolvedor — ele amplifica quem sabe fazer as perguntas certas.
