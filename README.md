@@ -97,6 +97,10 @@ do primeiro comprovante pra começar").
 ~~~
 
 ---
+ ## RESULTADO
+
+https://mei-no-azul.lovable.app/
+
 
 ## 🧠 Reflexão — O que aprendi com o Vibe Coding
 
