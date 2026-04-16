@@ -46,7 +46,7 @@ O app resolve isso com uma IA que:
 
 O prompt abaixo foi o **resultado de 3 iterações**. As duas primeiras versões geraram telas genéricas de "app de gastos". Só quando detalhei **persona, dor, tom e restrições** o Lovable entregou algo alinhado:
 
-```txt
+~~~txt
 Crie um web app chamado "MEI no Azul", um copiloto financeiro com IA focado
 exclusivamente em Microempreendedores Individuais (MEI) brasileiros.
 
@@ -94,13 +94,33 @@ React + Vite + TailwindCSS + shadcn/ui + Supabase (auth + postgres).
 Gere o layout responsivo (mobile-first), com microinterações suaves
 e estados vazios ilustrados ("você ainda não tem lançamentos, tire uma foto
 do primeiro comprovante pra começar").
+~~~
 
+---
 
+## 🧠 Reflexão — O que aprendi com o Vibe Coding
 
-🧠 Reflexão — O que aprendi com o Vibe Coding
 Esse lab virou a chave pra mim em três pontos:
 
-Prompt é produto. O primeiro prompt que escrevi era curto e genérico, e o resultado também foi. Quando tratei o prompt como um mini-PRD — com persona, dor, tom de voz, paleta, regras funcionais e stack — a IA parou de "chutar" e começou a executar uma visão. A qualidade da saída é diretamente proporcional à clareza da entrada.
-O papel do dev muda, mas não some. Com o Lovable eu não escrevi componentes à mão, mas precisei revisar, corrigir rumo e pedir refatorações específicas ("diminua o card do DAS", "troque ícone por Lucide"). Continua sendo engenharia — só que num nível de abstração mais alto, mais próximo de um Tech Lead revisando PRs do que de um dev escrevendo useState.
-Velocidade destrava ideação. Em menos de uma hora saí de uma ideia vaga ("app pra MEI") pra um protótipo navegável com identidade visual consistente. Isso muda a forma de validar produtos: dá pra testar 3 conceitos num fim de semana e só aí investir tempo em código "de verdade".
-No fim, o Vibe Coding não substitui o desenvolvedor — ele amplifica quem sabe fazer as perguntas certas.
+1. **Prompt é produto.** O primeiro prompt que escrevi era curto e genérico, e o resultado também foi. Quando tratei o prompt como um **mini-PRD** — com persona, dor, tom de voz, paleta, regras funcionais e stack — a IA parou de "chutar" e começou a **executar uma visão**. A qualidade da saída é diretamente proporcional à clareza da entrada.
+
+2. **O papel do dev muda, mas não some.** Com o Lovable eu não escrevi componentes à mão, mas precisei **revisar, corrigir rumo e pedir refatorações específicas** ("diminua o card do DAS", "troque ícone por Lucide"). Continua sendo engenharia — só que num nível de abstração mais alto, mais próximo de um Tech Lead revisando PRs do que de um dev escrevendo `useState`.
+
+3. **Velocidade destrava ideação.** Em menos de uma hora saí de uma ideia vaga ("app pra MEI") pra um **protótipo navegável** com identidade visual consistente. Isso muda a forma de validar produtos: dá pra testar 3 conceitos num fim de semana e só aí investir tempo em código "de verdade".
+
+No fim, o **Vibe Coding não substitui o desenvolvedor** — ele **amplifica** quem sabe fazer as perguntas certas.
+
+---
+
+## 📎 Links
+
+- 🔗 Repositório base da DIO: [digitalinnovationone/dio-lab-vibe-coding-app-financas](https://github.com/digitalinnovationone/dio-lab-vibe-coding-app-financas)
+- 🔗 Meu fork: [bobee-dev/dio-lab-vibe-coding-app-financas](https://github.com/bobee-dev/dio-lab-vibe-coding-app-financas)
+
+---
+
+## 👨‍💻 Autor
+
+Feito com 💙 durante o **Lab de Vibe Coding** da [DIO](https://www.dio.me/) — abril de 2026.
+
+> *"Quem controla o dinheiro, controla o tempo. O MEI no Azul devolve os dois."*
